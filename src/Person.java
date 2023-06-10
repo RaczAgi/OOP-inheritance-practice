@@ -20,6 +20,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Person[" +
+                "name= " + name +
+                ", address= " + address +
+                "]";
     }
 }
