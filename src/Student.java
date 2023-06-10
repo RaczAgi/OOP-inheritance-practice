@@ -1,11 +1,11 @@
-public class Studet {
+public class Student extends Person{
     protected String program;
     protected int year;
 
     protected double fee;
 
-    public Studet(String name, String address, String program, int year, double fee){
-        super();
+    public Student(String name, String address, String program, int year, double fee){
+        super(name, address);
         this.program = program;
         this.year = year;
         this.fee = fee;
